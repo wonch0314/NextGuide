@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  min-height: 100vh;
+}
+
+.flexBox {
+  display: flex;
+}
+
+#SNG {
+  background-color: #4459e8;
+  min-height: 100vh;
+  color: white;
+  padding: 16px;
+  overflow-y: scroll;
+}
+
+#BODY {
+  padding: 0 16px;
+  flex: 1;
+}
+
+#SNG::-webkit-scrollbar {
+  display: none;
+}
+
+.level1 {
+  color: "white";
+  font-size: 24px;
+}
+
+.layoutBox {
+  background-color: #f8f8f8;
+  padding: 12px;
+}
+
+.directory {
+  color: rgb(209, 100, 100);
+}

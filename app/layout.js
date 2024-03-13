@@ -1,5 +1,6 @@
 import { Inter } from "next/font/google";
 import SNG from "./components/SNG";
+import "./style.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -11,10 +12,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
-        <div style={{ display: "flex" }}>
+      <body style={{ margin: 0 }}>
+        <div className="flexBox">
           <SNG />
-          {children}
+          <div id="BODY">{children}</div>
         </div>
       </body>
     </html>

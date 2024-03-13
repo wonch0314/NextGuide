@@ -12,7 +12,14 @@ const getEveryMenu = (value) => {
         if (key !== "/") {
           return (
             <div key={key}>
-              <Link href={value}>{key}</Link>
+              <Link href={value}>
+                <span
+                  className="level2"
+                  style={{ color: "white", fontSize: "20px" }}
+                >
+                  {key}
+                </span>
+              </Link>
             </div>
           );
         }
@@ -23,11 +30,11 @@ const getEveryMenu = (value) => {
 
 export default function SNG() {
   return (
-    <div>
+    <div id="SNG">
       {Object.entries(SNG_MENU).map(([key, value]) => {
         return (
           <div key={key}>
-            <div>{key}</div>
+            <div className="level1">{key}</div>
             {getEveryMenu(value)}
           </div>
         );
