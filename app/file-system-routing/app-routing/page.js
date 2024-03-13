@@ -17,11 +17,14 @@ export default function page() {
           <p>┗ /archi-team</p>
           <p>┗ /uiux-team</p>
         </div>
-
-        <Link href="/file-system-routing/app-routing/archi-team">
-          ARCHI-TEAM
-        </Link>
-        <Link href="/file-system-routing/app-routing/uiux-team">UIUX-TEAM</Link>
+        <div style={{ display: "flex", flexDirection: "column" }}>
+          <Link href="/file-system-routing/app-routing/archi-team">
+            - ARCHI-TEAM
+          </Link>
+          <Link href="/file-system-routing/app-routing/uiux-team">
+            - UIUX-TEAM
+          </Link>
+        </div>
       </div>
     </div>
   );

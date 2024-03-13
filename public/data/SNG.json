@@ -1,0 +1,6 @@
+{
+  "FILE-SYSTEM-ROUTING": {
+    "app-routing": "/file-system-routing/app-routing",
+    "file-convention": "/file-system-routing/file-convention"
+  }
+}
