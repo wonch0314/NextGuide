@@ -1,6 +1,18 @@
 {
-  "FILE-SYSTEM-ROUTING": {
-    "app-routing": "/file-system-routing/app-routing",
-    "file-convention": "/file-system-routing/file-convention"
+  "FILE SYSTEM ROUTING": {
+    "App Routing": "/file-system-routing/app-routing",
+    "File Convention": "/file-system-routing/file-convention",
+    "Dynamic Routing": "/file-system-routing/dynamic-routing",
+    "Route Group": "/file-system-routing/route-group",
+    "Parallel Route": "/file-system-routing/parallel-route",
+    "Intercept Route": "/file-system-routing/intercept-route"
+  },
+  "DATA FETCHING": {
+    "Fetching": "/data-fetching/fetching",
+    "Server Action and Mutation": "/data-fetching/server-action-and-mutations",
+    "Test Cache": "/data-fetching/cache"
+  },
+  "ETC": {
+    "TEST": "/test"
   }
 }

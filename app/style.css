@@ -31,6 +31,8 @@ html {
 .level1 {
   color: "white";
   font-size: 24px;
+  border: solid 1px white;
+  padding: 8px;
 }
 
 .layoutBox {
@@ -40,4 +42,20 @@ html {
 
 .directory {
   color: rgb(209, 100, 100);
+  margin-top: 24px;
+  font-weight: bold;
+}
+
+.emphasize {
+  font-size: 32px;
+  color: rgb(118, 118, 201);
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  text-decoration-color: white;
 }

@@ -3,7 +3,9 @@ import Link from "next/link";
 export default function page() {
   return (
     <div>
-      <h2>App Routing</h2>
+      <div className="layoutBox">
+        <h2>App Routing</h2>
+      </div>
       <hr />
       <p>프로젝트 생성 후, app 디렉토리에 있는 폴더는 Routing 대상이 됩니다.</p>
       <p>그림은 추후 추가 예정</p>

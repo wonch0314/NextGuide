@@ -11,13 +11,13 @@ const getEveryMenu = (value) => {
       {Object.entries(value).map(([key, value]) => {
         if (key !== "/") {
           return (
-            <div key={key}>
+            <div key={key} style={{ marginBottom: "12px" }}>
               <Link href={value}>
                 <span
                   className="level2"
                   style={{ color: "white", fontSize: "20px" }}
                 >
-                  {key}
+                  {`> ${key}`}
                 </span>
               </Link>
             </div>
