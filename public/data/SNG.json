@@ -10,7 +10,7 @@
   "DATA FETCHING": {
     "Fetching": "/data-fetching/fetching",
     "Server Action and Mutation": "/data-fetching/server-action-and-mutations",
-    "Test Cache": "/data-fetching/cache"
+    "Test Cache": "http://127.0.0.1:3000/data-fetching/cache"
   },
   "ETC": {
     "TEST": "/test"
