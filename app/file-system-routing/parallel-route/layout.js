@@ -6,7 +6,7 @@ export default function layout({ slot, slot2, slot3, children }) {
       <div className="layoutBox">
         <h2>Parallel Route (병렬 라우트)</h2>
 
-        {slot}
+        {/* {slot} */}
         {slot2}
         {slot3}
         <p className="directory">{routeContent}</p>
