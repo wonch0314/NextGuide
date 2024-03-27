@@ -13,7 +13,7 @@ html {
 
 #SNG {
   background-color: #4459e8;
-  min-height: 100vh;
+  max-height: 100vh;
   color: white;
   padding: 16px;
   overflow-y: scroll;

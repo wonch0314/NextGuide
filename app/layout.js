@@ -1,6 +1,8 @@
 import { Inter } from "next/font/google";
-import SNG from "./components/SNG";
+import SNG from "../components/SNG";
 import "./style.css";
+import "ag-grid-community/styles/ag-grid.css";
+import "ag-grid-community/styles/ag-theme-alpine.css";
 
 const inter = Inter({ subsets: ["latin"] });
 

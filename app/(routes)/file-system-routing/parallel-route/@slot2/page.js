@@ -1,4 +1,4 @@
-import delay from "@/app/components/delayTool";
+import delay from "@/components/delayTool";
 
 export default async function slot() {
   await delay(5000);

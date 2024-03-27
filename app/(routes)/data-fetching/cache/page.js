@@ -2,7 +2,7 @@ import { goGetData } from "@/actions/goGetData";
 import CallAgain from "./CallAgain";
 
 export default async function page() {
-  const data = await goGetData();
+  // const data = await goGetData();
 
   return (
     <div>
