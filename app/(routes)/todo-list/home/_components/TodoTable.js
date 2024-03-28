@@ -1,5 +1,5 @@
 "use client";
-import { AgGridReact } from "ag-grid-react";
+import {AgGridReact } from "ag-grid-react";
 import { useEffect, useState } from "react";
 
 export default function TodoTable({ data }) {
@@ -7,11 +7,10 @@ export default function TodoTable({ data }) {
     return { field: key };
   });
 
-  console.log(dataTitle);
+
   const [tableData, setTableData] = useState(Object.values(data));
   const [tableTitle] = useState(dataTitle);
 
-  
 
   useEffect(() => {
     setTableData(Object.values(data));

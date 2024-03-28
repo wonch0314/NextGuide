@@ -15,7 +15,7 @@ export const testTodoData = async (clientId) => {
 
   const res = await fetch(url, body);
   const res_data = await res.json();
-  console.log(res_data);
+  // console.log(res_data);
 
   revalidatePath("/todo-list/home");
 };

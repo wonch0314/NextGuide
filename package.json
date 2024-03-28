@@ -7,12 +7,14 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "analyze": "ANALYZE=true next build",
     "server": "json-server  --watch ./fake-server/db.json --port 3001"
   },
   "dependencies": {
     "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.0",
     "@mui/material": "^5.15.14",
+    "@mui/x-tree-view": "^7.0.0",
     "@next/bundle-analyzer": "^14.1.4",
     "ag-grid-community": "^31.2.0",
     "ag-grid-react": "^31.2.0",

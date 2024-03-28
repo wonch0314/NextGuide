@@ -11,7 +11,7 @@ export default function InputForm() {
     const { target } = e;
     const title = target.title.value;
     const body = target.body.value;
-    console.log(title, body);
+    
     await addTodo({ title, body });
   };
 

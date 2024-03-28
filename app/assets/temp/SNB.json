@@ -1,0 +1,78 @@
+{
+  "result": "SUCCESS",
+  "data": {
+    "totalElements": 1,
+    "menuMegResult": [
+      {
+        "menuId": "OM0000",
+        "menuNm": "업무지원",
+        "menuDesc": "",
+        "upMenuId": "",
+        "menuTypeCd": "01",
+        "menuTypeNm": "대메뉴",
+        "menuDir": "",
+        "urlAdr": "/test/om0000",
+        "dispYn": "",
+        "useYn": "Y",
+        "sortOdrg": "1",
+        "menuUseStDt": null,
+        "menuUseFnsDt": null,
+        "regrNm": "",
+        "regDt": "",
+        "regDtStr": "2023-10-17 12:10:00",
+        "children": [
+          {
+            "menuId": "OM0400",
+            "menuNm": "게시판 관리",
+            "menuDesc": "",
+            "upMenuId": "OM0000",
+            "menuTypeCd": "02",
+            "menuTypeNm": "중메뉴 ",
+            "menuDir": "",
+            "urlAdr": "/test/om0400",
+            "dispYn": "",
+            "useYn": "Y",
+            "sortOdrg": "1",
+            "menuUseStDt": null,
+            "menuUseFnsDt": null,
+            "regrNm": "",
+            "regDt": "",
+            "regDtStr": "2023-10-17 12:10:00",
+            "children": [
+              {
+                "menuId": "OM0402",
+                "menuNm": "VOC 관리",
+                "menuDesc": "",
+                "upMenuId": "OM0400",
+                "menuTypeCd": "03",
+                "menuTypeNm": "소메뉴",
+                "menuDir": "",
+                "urlAdr": "/test/om0402",
+                "dispYn": "",
+                "useYn": "N",
+                "sortOdrg": "1",
+                "menuUseStDt": null,
+                "menuUseFnsDt": null,
+                "regrNm": "",
+                "regDt": "",
+                "regDtStr": "2023-10-17 12:10:00",
+                "children": null,
+                "urlList": null,
+                "id": "OM0402",
+                "parentId": "OM0400"
+              }
+            ],
+            "urlList": null,
+            "id": "OM0400",
+            "parentId": "OM0000"
+          }
+        ],
+        "urlList": null,
+        "id": "OM0000",
+        "parentId": ""
+      }
+    ]
+  },
+  "messageCode": "I-OM-0001",
+  "message": "messageCode 필드에 Mapping된 메세지"
+}

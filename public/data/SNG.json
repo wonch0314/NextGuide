@@ -22,8 +22,9 @@
     "Server": "/zustand/server",
     "Server Action": "/zustand/server-action"
   },
-  "Table": {
-    "Ag-grid": "/table/ag-grid"
+  "Components": {
+    "Ag-grid": "/components/ag-grid",
+    "Tree": "/components/tree"
   },
   "Todo List": {
     "home": "/todo-list/home"
