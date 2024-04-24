@@ -83,10 +83,15 @@ export default function page() {
         <SimpleTreeView
           id="my-tree"
           aria-label="file system navigator"
-          defaultCollapseIcon={<p>-</p>}
-          defaultExpandIcon={<p>+</p>}
-          defaultEndIcon={"└"}
-          selected={true}
+          slot={
+            {
+
+              defaultCollapseIcon: <p>-</p>,
+              defaultExpandIcon:<p>+</p>,
+              defaultEndIcon: "└",
+              selected: true
+            }
+          }
         >
           {menuList.map((menu) => renderTree(menu))}
         </SimpleTreeView>
