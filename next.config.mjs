@@ -1,11 +1,9 @@
 import withBundleAnalyzer from "@next/bundle-analyzer";
 
-
 //// Default
 // const nextConfig = {};
 
 // export default nextConfig;
-
 
 //// Bundle Analyzer
 // const withBundleAnalyzer = require('@next/bundle-analyzer')({
@@ -13,7 +11,9 @@ import withBundleAnalyzer from "@next/bundle-analyzer";
 //   })
 
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {
+  output: "standalone",
+};
 
-export default nextConfig
+export default nextConfig;
 // export default withBundleAnalyzer(nextConfig)
